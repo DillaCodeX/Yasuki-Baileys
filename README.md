@@ -88,7 +88,7 @@ const { default: makeWASocket } = require("@whiskeysockets/baileys")
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=MALVIN%20BAIYLES&animation=blinking" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=Yasuki%20Baileys&animation=blinking" width="100%">
 </div>
 
 ## ✨ | FEATURE SHOWCASE
