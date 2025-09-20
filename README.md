@@ -407,7 +407,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
 
 <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), rgba(220, 38, 38, 0.05)); border-radius: 10px; padding: 20px; margin: 20px 0;">
   <h3>Found a bug? Have a suggestion?</h3>
-  <p>If you encounter any issues while using this repository, please feel free to open a <a href="https://github.com/xdking0/Malvin-Baileys/issues" style="color: #60A5FA; text-decoration: none; font-weight: bold;">new issue</a>.</p>
+  <p>If you encounter any issues while using this repository, please feel free to open a <a href="https://github.com/DillaCodeX/Yasuki-Baileys/issues" style="color: #60A5FA; text-decoration: none; font-weight: bold;">new issue</a>.</p>
   
   <div style="display: flex; align-items: center; gap: 10px; margin-top: 15px; background: rgba(239, 68, 68, 0.1); padding: 10px; border-radius: 5px;">
     <span style="font-size: 24px;">👾</span>
