@@ -58,13 +58,14 @@
 ### 📂 In package.json:
 ```json
 "dependencies": {
-    "@whiskeysockets/baileys": "github:xdking0/Malvin-Baileys"
+    "@whiskeysockets/baileys": "github:DillaCodeX/Yasuki-Baileys"
 }
 ```
 
 ### ⚙️ Terminal Installation:
 ```bash
-npm install malvin-baileys
+npm install @whiskeysockets/baileys@github:DillaCodeX/Yasuki-Baileys
+
 ```
 
 ### 🔌 Import:
@@ -73,14 +74,14 @@ npm install malvin-baileys
 
 ```typescript
 // ESM 
-import makeWASocket from 'Malvin-baileys'
+import makeWASocket from '@whiskeysockets/baileys'
 ```
 </div>
 <div style="background: rgba(234, 179, 8, 0.1); border-radius: 5px; padding: 10px; flex: 1;">
 
 ```javascript
 // CommonJS
-const { default: makeWASocket } = require("Malvin-baileys")
+const { default: makeWASocket } = require("@whiskeysockets/baileys")
 ```
 </div>
 </div>
