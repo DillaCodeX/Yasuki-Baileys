@@ -351,7 +351,7 @@ await sock.sendMessage(id, { text: "Hello! I'm your AI assistant.", ai: true })
 ```typescript
 if(usePairingCode && !sock.authState.creds.registered) {
     const phoneNumber = await question('Please enter your mobile phone number:\n')
-    const custom = "MRMALVIN" // must be 8 digits, can be letters or numbers
+    const custom = "YASUKIMD" // must be 8 digits, can be letters or numbers
     const code = await sock.requestPairingCode(phoneNumber, custom)
     console.log(`Pairing code: ${code?.match(/.{1,4}/g)?.join('-') || code}`)
 }
@@ -372,9 +372,9 @@ if(usePairingCode && !sock.authState.creds.registered) {
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
   <div style="flex: 1; min-width: 250px; background: rgba(59, 130, 246, 0.05); border-radius: 10px; padding: 15px;">
     <h3>🚀 Step 1: Install</h3>
-    <p>Add baileys-elite to your project using npm</p>
+    <p>Add Yasuki-Baileys-Mod to your project using npm</p>
     <div style="background: rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
-      <code>npm install Malvin-baileys</code>
+      <code>npm install @whiskeysockets/baileys@github:DillaCodeX/Yasuki-Baileys</code>
     </div>
   </div>
   
@@ -382,7 +382,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
     <h3>🔄 Step 2: Import</h3>
     <p>Import the library into your project</p>
     <div style="background: rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
-      <code>import makeWASocket from 'Malvin-Baileys'</code>
+      <code>import makeWASocket from '@whiskeysockets/baileys'</code>
     </div>
   </div>
   
@@ -442,5 +442,5 @@ if(usePairingCode && !sock.authState.creds.registered) {
     </div>
   </div>
   
-  <p style="font-style: italic; max-width: 600px; margin: 0 auto;">Powered BY Malvin-baileys - The Ultimate WhatsApp Web API Experience</p> 
+  <p style="font-style: italic; max-width: 600px; margin: 0 auto;">Powered BY DillaCodeX - The Ultimate WhatsApp Web API Experience</p> 
 </div>
